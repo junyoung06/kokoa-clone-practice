@@ -16,3 +16,16 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+
+.temple-box {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.temple {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 90px;
+}

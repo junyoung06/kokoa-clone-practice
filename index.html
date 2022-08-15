@@ -17,29 +17,44 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>100%</span>
         <i class="fa-solid fa-battery-full"></i>
         <i class="fa-solid fa-bolt-lightning"></i>
       </div>
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to the Olympus</h1>
       <p class="welcome-header__text">
-        If you have a Kakao Account, log in with your email or phone number.
+        If you have a Olympus Account, log in with your email or phone number.
       </p>
     </header>
 
+    <div class="Olympus">
+      <img class="Olympus-photo" src="screenshots/Olympus.jpg" />
+    </div>
+
     <form action="friends.html" metod="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
-      <a href="#">Find Kakao Account or Password</a>
+      <input
+        name="username"
+        type="email"
+        required
+        placeholder="Email or phone number"
+      />
+      <input
+        name="password"
+        minlength="10"
+        type="password"
+        required
+        placeholder="Password"
+      />
+      <input type="submit" required value="Log In" />
+      <input type="submit" required value="Sign Up" />
+      <a href="#">Find Olympus Account or Password</a>
     </form>
 
     <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
+      <span>Your screen is big!!</span>
     </div>
 
     <script
