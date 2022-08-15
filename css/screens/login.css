@@ -68,4 +68,8 @@
 }
 
 .Olympus-photo {
+  height: 100px;
+  width: 100px;
+  padding: 30px;
+  border-radius: 50px;
 }
